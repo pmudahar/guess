@@ -1,0 +1,57 @@
+/**********************************
+BOXES
+***********************************/
+
+
+#bigbox {
+  margin-top: 100px;
+  width: 600px;
+  height: 300px;
+}
+
+#bigbox .bigbox2, #bigbox .bigbox3{
+  width: 300px;
+  height: 100px;
+  float: left;
+  
+}
+
+#bigbox .bigbox4, #bigbox .bigbox5{
+  width: 300px;
+  height: 100px;
+  float: left;
+  font-size: 2em;
+ 
+}
+
+.title{
+  font-family: "lato";
+  font-size: 6em;
+  font-weight: 900;
+  text-align: center;
+}
+
+.submit {
+  background: white;
+  border: none;
+  border-radius: none;
+  color: #fffff;
+  font-size: 2em;
+  width: 150px;
+  border-color: black;
+  cursor: pointer;
+}
+
+.minibutton{
+  background: white;
+  width: 150px;
+  height: 100px;
+
+  border: 5px #fffff;
+  border-radius: none;
+  color: #fffff;
+  font-size: 1em;
+
+  border-color: #fffff;
+  cursor: pointer;
+}
