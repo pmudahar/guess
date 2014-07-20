@@ -2,18 +2,24 @@
 BOXES
 ***********************************/
 
-
 #bigbox {
   margin-top: 100px;
   width: 600px;
   height: 300px;
 }
 
-#bigbox .bigbox2, #bigbox .bigbox3{
+.bigbox2{
+  width: 600px;
+  height: 100px;
+  float: left;
+  text-align: center;
+}
+
+.bigbox3{
   width: 300px;
   height: 100px;
   float: left;
-  
+  text-align: center;
 }
 
 #bigbox .bigbox4, #bigbox .bigbox5{
@@ -21,7 +27,6 @@ BOXES
   height: 100px;
   float: left;
   font-size: 2em;
- 
 }
 
 .title{
@@ -38,7 +43,6 @@ BOXES
   color: #fffff;
   font-size: 2em;
   width: 150px;
-  border-color: black;
   cursor: pointer;
 }
 
