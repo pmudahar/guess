@@ -59,3 +59,13 @@ BOXES
   border-color: #fffff;
   cursor: pointer;
 }
+
+#hot{
+  color: red;
+}
+
+#cold{
+  color: blue;
+}
+
+

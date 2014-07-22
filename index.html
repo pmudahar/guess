@@ -19,41 +19,54 @@
 </head>
 
 <body>
-
+<div class="container">
 <header>
 	<span class="title">i guess</span>
 </header>
 
 <div align=center>
+
 	<div id="bigbox">
+
+		<div id="hints" class="bigbox2">
+			<span>Hello.</span>
+		</div>
 
 		<div class="bigbox2">
 			
 			<div class="input-group">
   				<span class="input-group-addon">i guess</span>
- 		 		<input type="text" class="form-control" placeholder="Number 1 - 100">
+ 		 		<input id="num" type="text" class="form-control" placeholder="Number 1 - 100">
 			</div>
 
 		</div>
 
 		<div class="bigbox2">
-			<button type="submit" class="btn btn-default">Submit</button>
+			<button type="submit" id="submit" class="btn btn-default">Submit</button>
 		</div>
 
 		<div class="bigbox3">
-			<button type="button" class="btn btn-default">too hard, hint now!</button>
+			<button type="button" id="hint" class="btn btn-default">too hard, hint now!</button>
 		</div>
 
 		<div class="bigbox3">
-			<button type="button" class="btn btn-default">love it, play again!</button>
+			<button type="button" id="again" class="btn btn-default">love it, play again!</button>
 		</div>
 
+		<div id="hot" class="bigbox3">
+			<span>HOT</span>
+		</div>
+
+		<div id="cold" class="bigbox3">
+			<span>COLD</span>
+		</div>
 
 	</div>
 </div>
 
 <script src="http://code.jquery.com/jquery-1.11.0.min.js" type="text/javascript" charset="utf-8"></script>
 <script src="js/app.js" type="text/javascript" charset="utf-8"></script>
+</div>
 </body>
 
 </html>
